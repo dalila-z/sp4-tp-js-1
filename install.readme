@@ -5,12 +5,12 @@
 $ git clone URL
 
 
-# 3 - naviguez dans le repo et installez les dépendances avec la commande: 
+# 3 - naviguez dans le repo local et installez les dépendances avec la commande: 
 
 $ npm install
 
 
-# 4 - dans le dossier cloné, lancez le jeu de test avec la commande:
+# 4 - depuis le même repo local, lancez le jeu de test avec la commande:
 
 $ npm run test
 
