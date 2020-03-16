@@ -1,0 +1,16 @@
+{
+  "name": "first-try",
+  "author": "guillaume@owlab.dev",
+  "version": "1.0.0",
+  "description": "Testing jest",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack ./src/app.js --mode development --watch",
+    "test": "jest --watch"
+  },
+  "keywords": [],
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^25.1.0"
+  }
+}
