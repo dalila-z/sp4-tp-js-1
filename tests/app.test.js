@@ -170,7 +170,7 @@ describe("greetingUser - Should print a nice greeting message", () => {
     });
 
     test("Should throw an error: firstname must be at least of length 2", () => {
-      expect(() => greetingUser("", "")).toThrow(TypeError);
+      expect(() => greetingUser("", "")).toThrow(Error);
     });
 
     test("Should throw an error: lastname should be at least of length 2", () => {
@@ -273,3 +273,4 @@ describe("Should return the name of the player with the greater score", () => {
     ).toBe("The winner is: Haroon");
   });
 });
+
